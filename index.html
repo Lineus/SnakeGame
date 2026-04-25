@@ -13,8 +13,14 @@
       <p>Score: <span id="score">0</span></p>
       <button id="restartBtn" type="button">Restart</button>
     </div>
+    <div class="options">
+      <label>
+        <input type="checkbox" id="wrapAroundCheckbox" />
+        启用穿墙模式
+      </label>
+    </div>
     <canvas id="gameCanvas" width="400" height="400" aria-label="Snake game board"></canvas>
-    <p class="hint">Use Arrow Keys or WASD to move.</p>
+    <p class="hint">方向键或WASD操作。按Enter开始，按P暂停</p>
     <p id="message" class="message"></p>
   </main>
 
